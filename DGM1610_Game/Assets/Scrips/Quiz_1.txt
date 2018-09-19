@@ -1,0 +1,23 @@
+public Class Quiz_1
+{
+    public int speed = 0;
+    public bool jump;
+    private float jumpBoost;
+
+    void moving forword()
+    {
+        if (GetKeyDwon(keyDown.left))
+        {
+            Getcomponent<Rigidbody2D>.velocity = new vecter2(speed, Getcomponent<Rigidbody2D>.velociy.y);
+            jump = false;
+        }
+    }
+    void boost()
+    {
+        if (jumpBoost)
+        {
+            jump = true;
+            jump();
+        }
+    }
+}
