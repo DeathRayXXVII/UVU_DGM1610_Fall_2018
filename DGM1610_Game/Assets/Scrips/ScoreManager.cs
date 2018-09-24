@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+
+public class ScoreManager : MonoBehaviour 
+{
+	public static int Score;
+
+	Text ScoreText;
+
+	// Use this for initialization
+	void Start () 
+	{
+		ScoreText = GetComponent<Text>();
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+		if(Score < 0)
+		{
+			Score = 0;
+		}
+		ScoreText.Text = " " + Score;
+		
+	}
+	public static void AddPoints (int PointsToAdd)
+	{
+		Score += PointsToAdd;
+		Score = Score + PointsToAdd;
+	}
+}
