@@ -22,7 +22,7 @@ public class ScoreManager : MonoBehaviour
 		{
 			Score = 0;
 		}
-		ScoreText.Text = " " + Score;
+		ScoreText.text = " " + Score;
 		
 	}
 	public static void AddPoints (int PointsToAdd)
