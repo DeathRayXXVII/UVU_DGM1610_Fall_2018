@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GermanShepard : Canine
+public class GermanShepard : Canine 
 {
 	public bool friendly;
 

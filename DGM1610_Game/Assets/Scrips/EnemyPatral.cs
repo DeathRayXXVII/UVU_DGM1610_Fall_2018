@@ -10,7 +10,7 @@ public class EnemyPatral : MonoBehaviour
 
 	// Wall Check
 	public Transform WallCheck;
-	public floatWall CheckRadius;
+	public float WallCheckRadius;
 	public LayerMask WhatIsWall;
 	private bool HittingWall;
 
@@ -19,12 +19,31 @@ public class EnemyPatral : MonoBehaviour
 	public Transform EdgeCheck;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+		NotAtEdge = Physics2D.OverlapCircle(EdgeCheck.position, WallCheckRadius, WhatIsWall);
+		HittingWall= Physics2D.OverlapCircle(WallCheck.position, WallCheckRadius, WhatIsWall);
 		
+		// Trun Around at Wall
+		if (HittingWall || !NotAtEdge)
+		{
+			MoveRight = !MoveRight;
+		}
+		if (MoveRight)
+		{
+			transform.localScale = new Vector3(-0.7f,0.7f,1f);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+		}
+		else
+		{
+			transform.localScale = new Vector3(0.7f,0.7f,1f);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+		}
 	}
 }
