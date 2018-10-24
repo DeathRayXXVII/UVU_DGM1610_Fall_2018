@@ -2,39 +2,48 @@ fileFormatVersion: 2
 guid: a9fb61f2b6ea97e4bbdb270cb759c602
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GameObjects_0
+    21300000: Crate
     21300002: GameObjects_1
-    21300004: GameObjects_2
-    21300006: GameObjects_3
-    21300008: GameObjects_4
-    21300010: GameObjects_5
-    21300012: GameObjects_6
-    21300014: GameObjects_7
-    21300016: GameObjects_8
-    21300018: GameObjects_9
-    21300020: GameObjects_10
-    21300022: GameObjects_11
-    21300024: GameObjects_12
-    21300026: GameObjects_13
-    21300028: GameObjects_14
-    21300030: GameObjects_15
-    21300032: GameObjects_16
-    21300034: GameObjects_17
-    21300036: GameObjects_18
-    21300038: GameObjects_19
-    21300040: GameObjects_20
-    21300042: GameObjects_21
-    21300044: GameObjects_22
-    21300046: GameObjects_23
-    21300048: GameObjects_24
-    21300050: GameObjects_25
-    21300052: GameObjects_26
-    21300054: GameObjects_27
-    21300056: GameObjects_28
-    21300058: GameObjects_29
-    21300060: GameObjects_30
-    21300062: GameObjects_31
-    21300064: GameObjects_32
+    21300004: House_Red
+    21300006: House_Blue
+    21300008: Heart_0
+    21300010: Heart_1
+    21300012: Heart_2
+    21300014: Heart_3
+    21300016: Heart_4
+    21300018: Key_Holder
+    21300020: Heart_7
+    21300022: Heart_8
+    21300024: Heart_9
+    21300026: Heart_10
+    21300028: Key
+    21300030: Coin
+    21300032: Crystal_Gray
+    21300034: Crystal_Coper
+    21300036: Crystal_Blue
+    21300038: House_Green
+    21300040: House_Purple
+    21300042: Heart_12
+    21300044: Heart_13
+    21300046: Heart_14
+    21300048: Heart_15
+    21300050: Heart_16
+    21300052: Crystal_Gold
+    21300054: Crystal_Pink
+    21300056: Crystal_Silver
+    21300058: Heart_17
+    21300060: Rupee_gold
+    21300062: Rupee_blue
+    21300064: Rupee_green
+    21300066: Rupee_red
+    21300068: Rupee_1
+    21300070: Rupee_2
+    21300072: Rupee_3
+    21300074: White_Cloud
+    21300076: Gray_Cloud
+    21300078: Dark_Cloud
+    21300080: Tourch_Gray
+    21300082: Tourch_Red
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -150,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameObjects_0
+      name: Crate
       rect:
         serializedVersion: 2
         x: 0
-        y: 2188
-        width: 432
-        height: 463
+        y: 3982
+        width: 426
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f05ed3dde9a5f047bf7cdde378fcd10
+      spriteID: 00e10f70dc563bc4aaa25862c53ac071
       vertices: []
       indices: 
       edges: []
@@ -173,10 +182,10 @@ TextureImporter:
       name: GameObjects_1
       rect:
         serializedVersion: 2
-        x: 478
-        y: 2221
-        width: 434
-        height: 430
+        x: 483
+        y: 3979
+        width: 424
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,19 +193,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adb857f93ea725c4fb0ae0ca2809e589
+      spriteID: ec60ccf0c8afdf249a8004621565d559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_2
+      name: House_Red
       rect:
         serializedVersion: 2
-        x: 1326
-        y: 1341
-        width: 1068
-        height: 1266
+        x: 1336
+        y: 3105
+        width: 1055
+        height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bfed15a7dc22640a97b9db59ded168
+      spriteID: f3ee9f5fb20fe9b4fa7f4983fc30592e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_3
+      name: House_Blue
       rect:
         serializedVersion: 2
-        x: 2452
-        y: 1366
-        width: 1071
-        height: 1285
+        x: 2464
+        y: 3127
+        width: 1053
+        height: 1250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,19 +233,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 335d08a4e1e1c0f4fa7c3fc7c6db1524
+      spriteID: 1db7e8749747b974abedda22211137ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_4
+      name: Heart_0
       rect:
         serializedVersion: 2
-        x: 3718
-        y: 2101
-        width: 565
-        height: 480
+        x: 3724
+        y: 3858
+        width: 559
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,19 +253,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4953a2ee98113e4f84f2aea042a403e
+      spriteID: 2bf06b037976174479735d2cace5e52d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_5
+      name: Heart_1
       rect:
         serializedVersion: 2
-        x: 4321
-        y: 2120
-        width: 560
-        height: 480
+        x: 4322
+        y: 3874
+        width: 556
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,19 +273,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9681b192d599b124c8b80cf2a0aebb44
+      spriteID: 6789d687913478840b6c0a50472bff55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_6
+      name: Heart_2
       rect:
         serializedVersion: 2
-        x: 4916
-        y: 2120
-        width: 560
-        height: 486
+        x: 4918
+        y: 3879
+        width: 556
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,19 +293,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a533faefd4bb64fa1bc486d685da4b
+      spriteID: 772723fe543dc504082e7964c2ff8efb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_7
+      name: Heart_3
       rect:
         serializedVersion: 2
-        x: 5514
-        y: 2120
-        width: 566
-        height: 486
+        x: 5513
+        y: 3874
+        width: 559
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,19 +313,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64bf745623bf93848bfd777925502f2e
+      spriteID: 04dd75a4cba69034f9d19b3e831c7f2f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_8
+      name: Heart_4
       rect:
         serializedVersion: 2
         x: 6108
-        y: 2116
-        width: 560
-        height: 489
+        y: 3874
+        width: 555
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,19 +333,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3207d101c1359ac46a8336d765188a6c
+      spriteID: 821c1b518762ca64fb65641ec6f0b9f6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_9
+      name: Key_Holder
       rect:
         serializedVersion: 2
-        x: 7746
-        y: 0
-        width: 55
-        height: 2651
+        x: 3
+        y: 3760
+        width: 218
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,39 +353,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39ca83513a5adc3449563407ff6f9e7a
+      spriteID: f1bae4275eb72df49936fbb7f77c3f8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_10
+      name: Heart_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2005
-        width: 229
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16175da83b8e61e4290e6500d0ac916e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_11
-      rect:
-        serializedVersion: 2
-        x: 4318
-        y: 1567
+        x: 4316
+        y: 3324
         width: 559
-        height: 480
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,19 +373,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6311c7a9fb998e4db6119600a6586f7
+      spriteID: 17305112b59353645b9f617a7d90473f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_12
+      name: Heart_8
       rect:
         serializedVersion: 2
-        x: 4912
-        y: 1567
-        width: 560
-        height: 480
+        x: 4909
+        y: 3324
+        width: 557
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,219 +393,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c65b0e7b2bcdfa4bb5d34b344c7f3eb
+      spriteID: 675ad2dd03e8bda4da85a76c581d84d3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_13
+      name: Heart_9
       rect:
         serializedVersion: 2
-        x: 5506
-        y: 1567
-        width: 560
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 181a3856d44f1a6449d8558649242443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_14
-      rect:
-        serializedVersion: 2
-        x: 6104
-        y: 1567
-        width: 560
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0520a561e3a1ee14aa453f2ba4abbbf1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1857
-        width: 219
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6d286d9a84de8846a5ecaa7fb5d3f83
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_16
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 1571
-        width: 227
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf044e29f82143b4aba40d4fc114eb3d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_17
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2361
-        height: 1282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11bc13a95cf9e4d4f830a00fb50e7d4e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1228
-        width: 265
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ae557b0960976a4aa233d86eb78df97
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_19
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 1228
-        width: 270
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdfa81688aa1250428a105eddb603efe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_20
-      rect:
-        serializedVersion: 2
-        x: 686
-        y: 1233
-        width: 275
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e42cb91a6fa28848951b3b3e0f54f7e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_21
-      rect:
-        serializedVersion: 2
-        x: 2392
-        y: 0
-        width: 1069
-        height: 1265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9579f4e5da72d184ba75843bc335548a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_22
-      rect:
-        serializedVersion: 2
-        x: 3717
-        y: 1019
-        width: 562
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbfe9ed5e6dd4c9479bf594372167ad7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_23
-      rect:
-        serializedVersion: 2
-        x: 4318
-        y: 1019
+        x: 5507
+        y: 3324
         width: 559
-        height: 480
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,19 +413,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e35eccf848c53e2408cc9d9961e45389
+      spriteID: 913620ad022878942952d6d479f06082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_24
+      name: Heart_10
       rect:
         serializedVersion: 2
-        x: 4912
-        y: 1019
-        width: 560
-        height: 480
+        x: 6105
+        y: 3324
+        width: 558
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,19 +433,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96a5e8aa95259f1408330ccaff0c8e7a
+      spriteID: 1033e904d077d424da9788e084fc44e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_25
+      name: Key
       rect:
         serializedVersion: 2
-        x: 5506
-        y: 1019
-        width: 560
-        height: 480
+        x: 2
+        y: 3614
+        width: 213
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,19 +453,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba1ce3981a2c61d4dac06d44d311ad53
+      spriteID: b902ab4994f1cdb4dba27be39f4f5bdd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_26
+      name: Coin
       rect:
         serializedVersion: 2
-        x: 6104
-        y: 1019
-        width: 560
-        height: 480
+        x: 23
+        y: 3332
+        width: 214
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,19 +473,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d338fae0351726847bb34c2899575a8f
+      spriteID: c070c17b796bd1a449801b4987cbb3aa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_27
+      name: Crystal_Gray
       rect:
         serializedVersion: 2
-        x: 0
-        y: 884
-        width: 265
-        height: 275
+        x: 4
+        y: 2991
+        width: 256
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,19 +493,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4749226eaa64234484536821c5dad05
+      spriteID: c24bd5852ed7e694b80f457570f9a889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_28
+      name: Crystal_Coper
       rect:
         serializedVersion: 2
-        x: 349
-        y: 863
-        width: 270
-        height: 274
+        x: 350
+        y: 2991
+        width: 255
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -724,18 +513,258 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489e2111c82d69e4a868c78fb3e4b3f5
+      spriteID: e3dc7f517c91ba14ea1bb043a6a1b05a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_29
+      name: Crystal_Blue
       rect:
         serializedVersion: 2
         x: 695
-        y: 863
-        width: 270
+        y: 2997
+        width: 262
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6071e9dd820d8834580331cb86a8a691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House_Green
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1780
+        width: 1056
+        height: 1249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caceba82f60f5164e9efd938a23d631f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House_Purple
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1758
+        width: 1053
+        height: 1250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc18475d06162e4b9596a446eb22c20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_12
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2774
+        width: 560
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c679a42afb33f4e91024c35c391e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_13
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 2769
+        width: 559
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d09c1f13dc45474bba07bdec170c26f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_14
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 2774
+        width: 557
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a890eed210bf54f976c2d8596a22f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_15
+      rect:
+        serializedVersion: 2
+        x: 5502
+        y: 2774
+        width: 559
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba09888b02cdbd24e9a2afd592fd4e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_16
+      rect:
+        serializedVersion: 2
+        x: 6105
+        y: 0
+        width: 558
+        height: 3252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e90e5335373c5449b7fdcebe04b49b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Gold
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2645
+        width: 260
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3267059d6a284bb7d25eedcf3ddae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Pink
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2626
+        width: 262
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81412483f70287e43b14b8378452652d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Silver
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2622
+        width: 257
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c6a44889c2da0419728ee745190c1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_17
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2240
+        width: 560
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdfeab54f29154449436b0e2b625cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rupee_gold
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2253
+        width: 115
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -744,38 +773,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb9283214e02ea46ad7348cf4b42847
+      spriteID: 97b7b02fdcce25a44b5a27ed444f92b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_30
+      name: Rupee_blue
       rect:
         serializedVersion: 2
-        x: 3720
-        y: 486
-        width: 563
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a947172339c2c848b17f27479e0c4d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameObjects_31
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 498
-        width: 125
+        x: 163
+        y: 2260
+        width: 117
         height: 269
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -784,27 +793,207 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bd37698d128e9b4db3b00a60680146a
+      spriteID: afc811f9958e0ae4c9d2c8995d4a35d7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameObjects_32
+      name: Rupee_green
       rect:
         serializedVersion: 2
-        x: 153
-        y: 505
-        width: 763
-        height: 273
+        x: 299
+        y: 2260
+        width: 114
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 642, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56528b0c5e149f34aae8f203d2c2f28e
+      spriteID: 0ff607113aefbc54fa58ab3ee9d4469b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rupee_red
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2260
+        width: 114
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff47141ca3191241bc3fdf6d568575b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rupee_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2260
+        width: 115
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf0384a777e7949a5cf4cd91dae627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rupee_2
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 2260
+        width: 118
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c6bbb27de62b54080d737ea3e2a05f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rupee_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2260
+        width: 113
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a05c07c977d7c43843ff2294a85ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Cloud
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1851
+        width: 873
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf1dae1b3225cf4eb9da94236ea94e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Cloud
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1484
+        width: 874
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c72520198255a489e8133231069eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark_Cloud
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1169
+        width: 878
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba90b3e359624b044b4f3e08f739eb07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tourch_Gray
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 566
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ba1dbcee24ead41a859ff6ffa4e305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tourch_Red
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 566
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf44688c69321e144bb5b543720107c9
       vertices: []
       indices: 
       edges: []
@@ -812,7 +1001,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 77afe462bd2283540b052de2e18036e9
+    spriteID: 85a27bdd51e652948bd325ce6a204019
     vertices: []
     indices: 
     edges: []

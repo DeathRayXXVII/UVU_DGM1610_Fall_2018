@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458116085126302}
   - component: {fileID: 212793714186767330}
-  - component: {fileID: 60956125648534934}
+  - component: {fileID: 60889682327091318}
   - component: {fileID: 114748779569630282}
   m_Layer: 0
   m_Name: Blue_Rupee
@@ -37,12 +37,12 @@ Transform:
   m_GameObject: {fileID: 1189421043082100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.785, y: -5.74, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &60956125648534934
+--- !u!60 &60889682327091318
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,37 +58,25 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.81, y: 8.7300005}
-    newSize: {x: 3.81, y: 8.7300005}
+    oldSize: {x: 1.17, y: 2.69}
+    newSize: {x: 1.17, y: 2.69}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.9002649, y: -2.1866257}
-      - {x: 1.9146986, y: -2.1721919}
-      - {x: 1.9146986, y: 2.2301183}
-      - {x: 1.8713973, y: 2.2734196}
-      - {x: 1.366214, y: 2.850772}
-      - {x: 1.2507436, y: 2.9806762}
-      - {x: 1.0631042, y: 3.211617}
-      - {x: 0.86103094, y: 3.4425578}
-      - {x: 0.15377454, y: 4.236417}
-      - {x: 0.038304113, y: 4.366321}
-      - {x: -0.048298713, y: 4.366321}
-      - {x: -0.25037196, y: 4.164248}
-      - {x: -0.5390481, y: 3.803403}
-      - {x: -1.8525242, y: 2.3022873}
-      - {x: -1.9102594, y: 2.2301183}
-      - {x: -1.9102594, y: -2.1866257}
-      - {x: -1.866958, y: -2.229927}
-      - {x: -1.5782819, y: -2.5619047}
-      - {x: -0.26480576, y: -4.077454}
-      - {x: -0.033864908, y: -4.3372626}
-      - {x: 0.023870308, y: -4.3372626}
-      - {x: 0.19707596, y: -4.164057}
-      - {x: 0.3847154, y: -3.918682}
+    - - {x: 0.40972674, y: 0.9279479}
+      - {x: 0.1819424, y: 1.1882728}
+      - {x: 0.019239314, y: 1.3509759}
+      - {x: -0.078382544, y: 1.3509759}
+      - {x: -0.59903246, y: 0.89540726}
+      - {x: -0.59903246, y: -0.8943268}
+      - {x: -0.045841925, y: -1.3173549}
+      - {x: 0.051779933, y: -1.3173549}
+      - {x: 0.5073486, y: -0.82924557}
+      - {x: 0.60497046, y: -0.6665425}
+      - {x: 0.60497046, y: 0.70016354}
 --- !u!114 &114748779569630282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,12 +124,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 660beb1a3371bb34297f56e7a64340d6, type: 3}
+  m_Sprite: {fileID: 21300062, guid: a9fb61f2b6ea97e4bbdb270cb759c602, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.81, y: 8.7300005}
+  m_Size: {x: 1.17, y: 2.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

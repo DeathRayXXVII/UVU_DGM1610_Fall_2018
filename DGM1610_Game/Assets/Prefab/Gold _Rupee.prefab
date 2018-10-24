@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4456525640996210}
   - component: {fileID: 212561514606588044}
-  - component: {fileID: 60578725136488032}
+  - component: {fileID: 60485999405520664}
   - component: {fileID: 114861379141783988}
   m_Layer: 0
   m_Name: Gold _Rupee
@@ -36,13 +36,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1868862574709650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58, y: -5.79, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalPosition: {x: -36.7838, y: -5.861871, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &60578725136488032
+--- !u!60 &60485999405520664
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,39 +56,24 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 3.7400005, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.8000002, y: 8.710001}
-    newSize: {x: 3.8000002, y: 8.710001}
+    oldSize: {x: 1.15, y: 2.6999998}
+    newSize: {x: 1.15, y: 2.6999998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.8719608, y: -2.2661073}
-      - {x: 1.9152622, y: -2.2228057}
-      - {x: 1.9152622, y: 2.1939383}
-      - {x: 1.7420566, y: 2.3960114}
-      - {x: 1.4245129, y: 2.7568564}
-      - {x: 0.7316903, y: 3.5507157}
-      - {x: 0.4141466, y: 3.9259946}
-      - {x: 0.22650716, y: 4.142502}
-      - {x: 0.010000105, y: 4.359009}
-      - {x: -0.004433699, y: 4.359009}
-      - {x: -0.04773511, y: 4.315707}
-      - {x: -1.8663944, y: 2.2372396}
-      - {x: -1.895262, y: 2.208372}
-      - {x: -1.895262, y: -2.2228057}
-      - {x: -1.7076225, y: -2.4537466}
-      - {x: -1.5055493, y: -2.6846876}
-      - {x: -0.3941464, y: -3.9404285}
-      - {x: -0.19207315, y: -4.185803}
-      - {x: -0.03330131, y: -4.359009}
-      - {x: 0.053301517, y: -4.359009}
-      - {x: 0.16877195, y: -4.2291045}
-      - {x: 0.47188184, y: -3.8682594}
-      - {x: 1.4822481, y: -2.713555}
+    - - {x: -0.14929838, y: 1.3785969}
+      - {x: -0.5723264, y: 0.8904876}
+      - {x: -0.5723264, y: -0.9643277}
+      - {x: -0.05167653, y: -1.3222744}
+      - {x: 0.20864843, y: -1.3222744}
+      - {x: 0.6316765, y: -0.70400274}
+      - {x: 0.6316765, y: 0.857947}
+      - {x: 0.11102656, y: 1.3785969}
 --- !u!114 &114861379141783988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,12 +121,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 660beb1a3371bb34297f56e7a64340d6, type: 3}
+  m_Sprite: {fileID: 21300060, guid: a9fb61f2b6ea97e4bbdb270cb759c602, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.8000002, y: 8.710001}
+  m_Size: {x: 1.15, y: 2.6999998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
