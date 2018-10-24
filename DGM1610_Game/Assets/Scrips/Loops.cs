@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Loops : MonoBehaviour 
 {
-	public int num = 40;
+	public int Num = 40;
+	public string Color  = "Blue";
 
 	// Use this for initialization
 	void Start () 
@@ -13,11 +14,15 @@ public class Loops : MonoBehaviour
 		// {
 		// 	print(i + "Ants Marching");
 		// }
-		while(num > 0)
+		while(Num > 0)
 		{
-			print ("Countdown"num);
-			num --;
+			print ("Countdown"+Num);
+			Num --;
 		}
+		// while( Color == "Red")
+		// {
+		// 	print("Color is" + Color);
+		// }
 	}
 	
 	// Update is called once per frame
