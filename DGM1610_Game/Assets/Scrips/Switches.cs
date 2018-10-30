@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Switches : MonoBehaviour 
+public class Switchess : MonoBehaviour 
 {
 	public int num;
 	public string name;
