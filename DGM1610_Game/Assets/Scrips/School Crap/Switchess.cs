@@ -5,6 +5,7 @@ using UnityEngine;
 public class SwitchesH : MonoBehaviour 
 {
 	public int num;
+	public string nameChest;
 	public string name;
 	
 
@@ -26,7 +27,7 @@ public class SwitchesH : MonoBehaviour
 				print("Next time :(");
 			break;
 		}
-		switch(name)
+		switch(nameChest)
 		{
 			case "Wood Chest":
 				print("In side You found 15 SP");
@@ -42,6 +43,18 @@ public class SwitchesH : MonoBehaviour
 			break;
 			default:
 				print("You found a used rag.");
+			break;
+		}
+		switch(name)
+		{
+			case "sleep":
+				print("Good Night");
+			break;
+			case "wake":
+				print("Good Morning");
+			break;
+			default:
+				print("I dont think you exist?");
 			break;
 		}
 	}
