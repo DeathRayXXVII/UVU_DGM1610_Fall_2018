@@ -16,6 +16,9 @@ public class CharaterMove : MonoBehaviour
 	//Non-Stick Player
 	private float moveVelocity;
 
+	public int MaxHealth;
+	public int CurHealth;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -59,10 +62,22 @@ public class CharaterMove : MonoBehaviour
 			moveVelocity = -moveSpeed;
 		}
 		GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+
+		//Player Flip
+		if (GetComponent<Rigidbody2D>().velocity.x > 0)
+			transform.localScale = new Vector3(0.5f, 0.5f,1f);
+		else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+			transform.localScale = new Vector3(-0.5f, 0.5f,1f);
 		
 	}
 	public void Jump()
 	{
 		GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+	}
+
+	[ExecuteInEditMode]
+	void OnValidate()
+	{
+		CurHealth = Mathf.Clamp(CurHealth,0,MaxHealth);
 	}
 }
