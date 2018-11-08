@@ -1537,7 +1537,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 240326041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.59, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 308567416}
@@ -1704,7 +1704,6 @@ GameObject:
   - component: {fileID: 308567417}
   - component: {fileID: 308567418}
   - component: {fileID: 308567419}
-  - component: {fileID: 308567420}
   - component: {fileID: 308567414}
   - component: {fileID: 308567421}
   m_Layer: 0
@@ -1883,25 +1882,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &308567420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 308567413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7f2921e10e568f458174d23a75e6926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentCheakPoint: {fileID: 776807094}
-  Player: {fileID: 308567417}
-  DeathParticles: {fileID: 1804891852853492, guid: 969b9ffa9d126f74f9a7ff8f8f82f20b,
-    type: 2}
-  RespawnParticle: {fileID: 1384109713992000, guid: a9dff5478678d1f4c895a452ef5ef26f,
-    type: 2}
-  RespawnDelay: 1
-  PointPenaltyOnDeath: 5
 --- !u!114 &308567421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3732,6 +3712,11 @@ Prefab:
       propertyPath: PC
       value: 
       objectReference: {fileID: 308567417}
+    - target: {fileID: 61813748155946492, guid: 9f7590313bd9a43429679ede264b4e12,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f7590313bd9a43429679ede264b4e12, type: 2}
   m_IsPrefabAsset: 0
@@ -3803,7 +3788,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 776807094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.19, y: -5.21, z: -17.40577}
+  m_LocalPosition: {x: -4.32, y: -5.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6475,13 +6460,34 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1226886733}
+  - component: {fileID: 1226886732}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
+--- !u!114 &1226886732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1226886731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f2921e10e568f458174d23a75e6926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentCheakPoint: {fileID: 776807094}
+  Player: {fileID: 308567417}
+  PC2: {fileID: 308567413}
+  DeathParticles: {fileID: 1804891852853492, guid: 969b9ffa9d126f74f9a7ff8f8f82f20b,
+    type: 2}
+  RespawnParticle: {fileID: 1384109713992000, guid: a9dff5478678d1f4c895a452ef5ef26f,
+    type: 2}
+  RespawnDelay: 1
+  PointPenaltyOnDeath: 5
 --- !u!4 &1226886733
 Transform:
   m_ObjectHideFlags: 0
@@ -9753,7 +9759,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840252748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.163536, y: -2.5207705, z: -0.22494568}
+  m_LocalPosition: {x: -13.19, y: -2.5207705, z: -0.22494568}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children:
   - {fileID: 291520518}
@@ -9772,7 +9778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccbb69294756954d948b8213cd84fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 308567420}
+  LevelManager: {fileID: 0}
 --- !u!114 &1840252754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15515,7 +15521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccbb69294756954d948b8213cd84fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 308567420}
+  LevelManager: {fileID: 0}
 --- !u!4 &2048665690
 Transform:
   m_ObjectHideFlags: 0

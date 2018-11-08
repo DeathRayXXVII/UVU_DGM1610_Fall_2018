@@ -28,14 +28,16 @@ public class Projectile : MonoBehaviour
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if(other.tag == "Enemy")
+		if(other.gameObject.tag == "Enemy")
 		{
 			Instantiate(PojectileParticle, transform.position, transform.rotation);
-			
 			Destroy (other.gameObject);
 			ScoreManager.AddPoints (PointsForKill);
 		}
-
+		Destroy(gameObject);
+	}
+	void OnColllisionEnter2D(Collision2D other)
+	{
 		Instantiate(EnemyDeath, other.transform.position, other.transform.rotation);
 		Destroy(gameObject);
 	}
