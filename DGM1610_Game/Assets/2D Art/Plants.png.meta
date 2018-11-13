@@ -2,12 +2,12 @@ fileFormatVersion: 2
 guid: e72411045d225e548ac6c67c9228b42b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Plants_0
-    21300002: Plants_1
-    21300004: Plants_2
-    21300006: Plants_3
-    21300008: Plants_4
-    21300010: Plants_5
+    21300000: RandomFlower
+    21300002: OrengeFlower
+    21300004: GreenBush
+    21300006: BlueBush
+    21300008: PurpleBush
+    21300010: OrengeBush
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plants_0
+      name: RandomFlower
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
         width: 1463
         height: 2685
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plants_1
+      name: OrengeFlower
       rect:
         serializedVersion: 2
         x: 1539
@@ -151,7 +151,7 @@ TextureImporter:
         width: 1466
         height: 2385
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plants_2
+      name: GreenBush
       rect:
         serializedVersion: 2
         x: 3156
@@ -171,7 +171,7 @@ TextureImporter:
         width: 1550
         height: 986
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plants_3
+      name: BlueBush
       rect:
         serializedVersion: 2
         x: 3177
@@ -191,7 +191,7 @@ TextureImporter:
         width: 1567
         height: 980
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plants_4
+      name: PurpleBush
       rect:
         serializedVersion: 2
         x: 3197
@@ -211,7 +211,7 @@ TextureImporter:
         width: 1547
         height: 980
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plants_5
+      name: OrengeBush
       rect:
         serializedVersion: 2
         x: 3155
@@ -231,7 +231,7 @@ TextureImporter:
         width: 1546
         height: 978
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
