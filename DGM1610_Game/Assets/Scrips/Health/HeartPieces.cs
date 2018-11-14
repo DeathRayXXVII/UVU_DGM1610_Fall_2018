@@ -18,7 +18,7 @@ public class HeartPieces : MonoBehaviour {
 	{
 		if (Other.tag == "Player")
 		{
-//			HeartUI.AddHeartPiece(HeartPieceAmount);
+			HeartUI.AddHeartPiece(HeartPieceAmount);
 			Destroy(gameObject);
 		}
 		
