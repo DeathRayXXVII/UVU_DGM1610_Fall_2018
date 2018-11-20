@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour 
 {
-	
+	public CharaterMove LocalPlayer;
 	public GameObject CurrentCheakPoint;
 	public Rigidbody2D Player;
 	public GameObject PC2;
@@ -54,6 +54,7 @@ public class LevelManager : MonoBehaviour
 		//Player.enabled = true;
 		PC2.SetActive(true);
 		Player.GetComponent<Renderer>().enabled = true;
+		LocalPlayer.CurHealth = LocalPlayer.MaxHealth;
 		// Spawn Particle
 		Instantiate (RespawnParticle, CurrentCheakPoint.transform.position, CurrentCheakPoint.transform.rotation);
 	}

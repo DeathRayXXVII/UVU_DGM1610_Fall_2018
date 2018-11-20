@@ -9,6 +9,8 @@ public class KillingPlayer : MonoBehaviour
 	public HeartUI HeartUI;
 	public CharaterMove LocalPlayer;
 
+	public int Damage;
+
 	bool playerInRange;
 	float time;
 
@@ -29,10 +31,16 @@ public class KillingPlayer : MonoBehaviour
 	}*/
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.name == "Hero") 
+		if(other.name == "Hero")
 		{
-			LevelManager.RespawnPlayer ();
-
+			if(LocalPlayer.CurHealth > 1)
+			{
+				LocalPlayer.CurHealth -= Damage;
+			}
+			if(LocalPlayer.CurHealth <= 0)
+			{ 
+				LevelManager.RespawnPlayer ();
+			}
 		}
 	}
 }
