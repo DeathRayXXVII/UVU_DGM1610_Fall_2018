@@ -17,9 +17,11 @@ public class CharaterMove : MonoBehaviour
 	private bool grounded;
 	//Non-Stick Player
 	private float moveVelocity;
-
+	//Player Health
 	public int MaxHealth;
 	public int CurHealth;
+	//player animation
+	public Animator animator;
 
 	// Use this for initialization
 	void Start () 
@@ -57,19 +59,21 @@ public class CharaterMove : MonoBehaviour
 		{
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = moveSpeed;
+			animator.SetFloat("Speed", moveSpeed);
 		} 
 		if(Input.GetKey (KeyCode.A))
 		{
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = -moveSpeed;
+			
 		}
 		GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
 		//Player Flip
 		if (GetComponent<Rigidbody2D>().velocity.x > 0)
-			transform.localScale = new Vector3(0.5f, 0.5f,1f);
+			transform.localScale = new Vector3(0.65f, 0.65f,1f);
 		else if (GetComponent<Rigidbody2D>().velocity.x < 0)
-			transform.localScale = new Vector3(-0.5f, 0.5f,1f);
+			transform.localScale = new Vector3(-0.65f, 0.65f,1f);
 		
 	}
 	public void Jump()
