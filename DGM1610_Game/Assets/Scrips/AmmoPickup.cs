@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class AmmoPickup : PlayerShoot
 {
+	public float PowerTime;
+
+	private PowerUpManager ThePowerUpManager;
+
 	// Use this for initialization
+	void start ()
+	{
+		ThePowerUpManager = FindObjectOfType<PowerUpManager>();
+	}
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.GetComponent<Rigidbody2D> () == null)
-//			projectile = false;
-			return;
-
-		Destroy (gameObject);
+		if(other.name == "Hero")
+		{
+			//ThePowerUpManager.ActivatePowerUp (PowerTime);
+			projectile.SetActive(true);
+			Destroy (gameObject);
+		}
+			
 	}
 }

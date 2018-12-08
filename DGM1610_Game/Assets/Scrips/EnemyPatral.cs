@@ -18,10 +18,13 @@ public class EnemyPatral : MonoBehaviour
 	private bool NotAtEdge;
 	public Transform EdgeCheck;
 
+	public Animator animator;
+
 	// Use this for initialization
 	void Start () 
 	{
-		
+		animator.SetBool("WalkingRight", false);
+		animator.SetBool("WalkingLeft", false);
 	}
 	
 	// Update is called once per frame
@@ -39,11 +42,13 @@ public class EnemyPatral : MonoBehaviour
 		{
 			transform.localScale = new Vector3(-0.7f,0.7f,1f);
 			GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+			animator.SetBool("WalkingRight", true);
 		}
 		else
 		{
 			transform.localScale = new Vector3(0.7f,0.7f,1f);
 			GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+			animator.SetBool("WalkingLeft", true);
 		}
 	}
 }

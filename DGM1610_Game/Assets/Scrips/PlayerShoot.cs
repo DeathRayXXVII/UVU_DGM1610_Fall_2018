@@ -7,17 +7,22 @@ public class PlayerShoot : MonoBehaviour {
 	//Shoot variables
 	public Transform FirePoint;
 	public GameObject projectile;
+	public CharaterMove LocalPlayer;
 
 	// Use this for initialization
-	void Start () {
-		projectile = Resources.Load("Prefab/Fireball") as GameObject;
+	void Start () 
+	{
+		projectile.SetActive(false);
+		projectile = Resources.Load("Prefab/Fireball") as GameObject;	
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		if(Input.GetKeyDown(KeyCode.LeftShift))
 			Instantiate(projectile,FirePoint.position, FirePoint.rotation);
-		//	projectile = false;
+		
+		
 	}
 }

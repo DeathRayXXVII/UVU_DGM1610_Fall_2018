@@ -21,12 +21,12 @@ public class CharaterMove : MonoBehaviour
 	public int MaxHealth;
 	public int CurHealth;
 	//player animation
+	
 	public Animator animator;
 
 	// Use this for initialization
 	void Start () 
 	{
-		print("Hello World!");
 		animator.SetBool("IsWalking", false);
 		animator.SetBool("IsCrouching", false);
 		animator.SetBool("IsJumping", false);
@@ -48,7 +48,7 @@ public class CharaterMove : MonoBehaviour
 		if(grounded)
 		{
 			doublejump = false;
-			animator.SetBool("isJumping", false);
+			animator.SetBool("IsJumping", false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.Space)&& !doublejump && !grounded)
@@ -63,30 +63,32 @@ public class CharaterMove : MonoBehaviour
 		{
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = moveSpeed;
-			animator.SetBool("isWalking", true);
+			animator.SetBool("IsWalking", true);
 		} 
 		else if(Input.GetKeyUp (KeyCode.D))
 		{
-			animator.SetBool("isWalking", false);
+			animator.SetBool("IsWalking", false);
 		}
 		if(Input.GetKey (KeyCode.A))
 		{
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = -moveSpeed;
-			animator.SetBool("isWalking", true);
+			animator.SetBool("IsWalking", true);
 		}
 		else if(Input.GetKeyUp (KeyCode.A))
 		{
-			animator.SetBool("isWalking", false);
+			animator.SetBool("IsWalking", false);
 		}
 		if(Input.GetKey (KeyCode.S))
 		{
-			animator.SetBool("isCrouching", true);
+			animator.SetBool("IsCrouching", true);
 		}
 		else if(Input.GetKeyUp (KeyCode.S))
 		{
-			animator.SetBool("isCrouching", false);
+			animator.SetBool("IsCrouching", false);
 		}
+		animator.SetBool ("grounded", grounded);
+		//animator.SetFloatC"VelocityX", Mathf.Abs (velocity.x) / moveSpeed);
 
 		GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
