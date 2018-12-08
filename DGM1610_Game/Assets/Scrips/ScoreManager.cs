@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour 
 {
 	public static int Score;
-	public GameObject WinScore;
+	public int WinScore;
 
 	Text ScoreText;
 	public Text WinText;
@@ -36,7 +36,13 @@ public class ScoreManager : MonoBehaviour
 		}
 		ScoreText.text = " " + Score;
 		
-		
+		//if the plalyer win display win text
+		if(Score >= WinScore)
+		{
+			print("Win Score Reached = " + Score);
+			WinText.GetComponent<Text>().enabled = true;
+			Time.timeScale = 0;
+		}
 		//if player hits the Escape key return to start menu
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
@@ -45,13 +51,6 @@ public class ScoreManager : MonoBehaviour
 	}
 	void OnTriggerEnter2D(Collider2D Other)
 	{
-		//if the plalyer win display win text
-		if(Other.tag == "Player")
-		{
-			print("Win Score Reached = " + Score);
-			WinText.GetComponent<Text>().enabled = true;
-			Time.timeScale = 0;
-		}
 		
 	}
 	public static void AddPoints (int PointsToAdd)

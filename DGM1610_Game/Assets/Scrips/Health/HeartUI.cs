@@ -11,16 +11,19 @@ public class HeartUI : MonoBehaviour {
 
 	public int HeartPieces;
 
+	
 	public int MaxHeartsContainer = 20;
 
-	public GameObject HeartUIPiece;
+	public GameObject HeartPieceUI;
 
+  
     private int DrawHeartPieces;
 
 	public void Start()
 	{
 		UpdateHearts();
 	}
+
 	/// <summary>
 	/// This function will be resposible for redrawing the list  and keeping track of current health and max health.
 	/// </summary>
@@ -28,17 +31,18 @@ public class HeartUI : MonoBehaviour {
 	{
 		HeartIcons = GetComponentsInChildren<HeartIcon>().ToList();
 		LocalPlayer = FindObjectOfType<CharaterMove>();
-		LocalPlayer.MaxHealth = ( HeartIcons.Count ) * 4;
+		LocalPlayer.MaxHealth = (HeartIcons.Count ) * 4;
 		LocalPlayer.CurHealth = LocalPlayer.MaxHealth;
 	}
 	public void Update()
 	{
 		DrawHearts();
 	}
+
 	/// <summary>
 	/// This function is responsible for adding the heart pieces when picked up in game.
 	/// </summary>
-	/// <param name="_HeartsPiecesToAdd"></param>
+	/// <param name="HeartsPiecesToAdd"></param>
 	public void AddHeartPiece(int HeartsPiecesToAdd)
 	{
 		if (HeartIcons.Count >= MaxHeartsContainer)
@@ -48,7 +52,7 @@ public class HeartUI : MonoBehaviour {
 
 		if (HeartPieces - 4 >= 0 )
 		{
-			GameObject TempObject = Instantiate(HeartUIPiece, Vector3.zero, Quaternion.identity) as GameObject;
+			GameObject TempObject = Instantiate(HeartPieceUI, Vector2.zero, Quaternion.identity) as GameObject;
 
 			TempObject.transform.SetParent(this.transform);
 
@@ -56,6 +60,7 @@ public class HeartUI : MonoBehaviour {
 			
 			UpdateHearts();
 		}
+
 	}
 	/// <summary>
 	/// This is the function resposible for drawing the hearts and sending information to their animators.
@@ -76,7 +81,7 @@ public class HeartUI : MonoBehaviour {
 			else
 			{
 				//If the heartis empty set the image to empty
-				if (( LocalPlayer.CurHealth - ( ( i - 1 ) * 4 ) ) <= 0)
+				if (( LocalPlayer.CurHealth - (( i - 1) * 4)) <= 0)
 					HeartIcons[i - 1].SetHeartAnim(0);
 				else
 				{
@@ -85,7 +90,10 @@ public class HeartUI : MonoBehaviour {
 					//If none of the above the heart must be partially full so fill it
 					HeartIcons[i - 1].SetHeartAnim(DrawHeartPieces);
 				}
+
 			}
+
+
 		}
 	}
 }

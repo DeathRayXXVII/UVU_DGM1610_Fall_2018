@@ -8,7 +8,7 @@ public class KillingPlayer : MonoBehaviour
 	public float TimeBetweenAttacks;
 	public HeartUI HeartUI;
 	public CharaterMove LocalPlayer;
-	public PlayerShoot projectile;
+	
 
 	public int Damage;
 

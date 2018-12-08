@@ -8,6 +8,7 @@ public class PlayerShoot : MonoBehaviour {
 	public Transform FirePoint;
 	public GameObject projectile;
 	public CharaterMove LocalPlayer;
+	private float PowerTime;
 
 	// Use this for initialization
 	void Start () 
@@ -23,6 +24,10 @@ public class PlayerShoot : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.LeftShift))
 			Instantiate(projectile,FirePoint.position, FirePoint.rotation);
 		
+		//if(PowerUpCounter <= 0)
+		//{
+		//	projectile.SetActive(false);
+		//}
 		
 	}
 }

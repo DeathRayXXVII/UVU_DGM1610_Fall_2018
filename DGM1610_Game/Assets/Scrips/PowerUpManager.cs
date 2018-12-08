@@ -6,7 +6,6 @@ public class PowerUpManager : MonoBehaviour
 {
 	private bool powerupActive;
 	private float PowerUpCounter;
-	private float powerTime;
 	
 	private PlayerShoot projectile;
 
