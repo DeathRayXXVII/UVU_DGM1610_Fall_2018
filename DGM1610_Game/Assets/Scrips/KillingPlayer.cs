@@ -34,7 +34,7 @@ public class KillingPlayer : MonoBehaviour
 	{
 		if(other.name == "Hero")
 		{
-			if(LocalPlayer.CurHealth > 1)
+			if(LocalPlayer.CurHealth > 0)
 			{
 				LocalPlayer.CurHealth -= Damage;
 			}

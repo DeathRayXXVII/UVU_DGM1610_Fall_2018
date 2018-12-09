@@ -6,12 +6,16 @@ public class PowerUpManager : MonoBehaviour
 {
 	private bool powerupActive;
 	private float PowerUpCounter;
+	public float PowerTime;
 	
 	private PlayerShoot projectile;
+	private LevelManager levelmanager;
+	
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+		levelmanager = FindObjectOfType<LevelManager>();	
 	}
 	
 	// Update is called once per frame
@@ -20,9 +24,15 @@ public class PowerUpManager : MonoBehaviour
 		if(powerupActive)
 		{
 			PowerUpCounter -= Time.deltaTime;
+
+			if(levelmanager.powerupReset)
+			{
+				PowerUpCounter = 0;
+				levelmanager.powerupReset = false;
+			}
+
 			if(PowerUpCounter <= 0);
 			{
-				//projectile.SetActive(false);
 				powerupActive = false;
 			}
 		}

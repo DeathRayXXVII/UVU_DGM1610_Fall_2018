@@ -17,6 +17,8 @@ public class LevelManager : MonoBehaviour
 	public int PointPenaltyOnDeath;
 	// Store Gravity Value
 	private float GravityStore;
+	
+	public bool powerupReset;
 
 	// Use this for initialization
 	void Start () 
@@ -30,6 +32,7 @@ public class LevelManager : MonoBehaviour
 	}
 	public IEnumerator RespawnPlayerCo()
 	{
+		powerupReset = true;
 		// Generate Death Particale
 		Instantiate (DeathParticles, Player.transform.position, Player.transform.rotation);
 		// Hide Player

@@ -46,6 +46,9 @@ TextureImporter:
     21300082: GemManGameObjects_15
     21300084: Ground_CircleGrass_0
     21300086: Ground_CircleGrass_1
+    21300088: GemManGameObjects_3
+    21300090: GemManGameObjects_4
+    21300092: GemManGameObjects_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -1036,6 +1039,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 11fc3acb63cb3404b8a9f80999d16dbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GemManGameObjects_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1155
+        width: 248
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331e0e41c28f45429f989038d84dc91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GemManGameObjects_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1417
+        width: 247
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b610165a4c1cc3f459b922dfd376741c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GemManGameObjects_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1671
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0867d5e9c7b404c84dd7ff4bb953df
       vertices: []
       indices: 
       edges: []
